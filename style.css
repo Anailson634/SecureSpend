@@ -1,0 +1,43 @@
+:root {
+    --color-bage: #d4d3d3;
+}
+
+body {
+    background-color: var(--color-bage);
+    color: #F2E8C9;
+}
+.metas, .entrada{
+    
+    border-radius: 4px;
+    background-color: #2E5C3F;
+}
+
+
+.metas {
+    width: 70%;
+} .title {
+    border-bottom: 1px solid;
+}
+.meta-entrada {
+    width: 30%;
+}
+.campo-entrada > div > span > input[type="text"] {
+    width: 30%;
+} #acicionar-entrada {
+    text-align: center;
+    border: 1px solid;
+    width: 30px;
+    margin: 2px;
+}
+
+
+
+
+
+.organizar-title{
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+}.organizar-title > span {
+    margin: 2px;
+}
